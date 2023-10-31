@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Super Mario jump!</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <div class="mariokart-wrapper">
+      <div class="stage-wrapper">
+        <div class="stage-btn stage-btn-next" id="mkStageBtnNext"></div>
+        <div class="stage-btn stage-btn-prev" id="mkStageBtnPrev"></div>
+      </div>
+
+      <div class="round-wrapper">
+        <div class="round-frame">
+          <div class="round-frame-bg"></div>
+          <div class="round-frame-bg round-frame-bg-center"></div>
+          <div class="round-frame-bg round-frame-bg-r"></div>
+        </div>
+        <img class="rider" src="images/rider-1.png" alt="mkrider" />
+      </div>
+
+      <div class="btn-wrapper">
+        <div class="btn speeddown"></div>
+        <div class="btn jump"></div>
+        <div class="btn speedup"></div>
+      </div>
+
+      <div class="help-wrapper">
+        <p class="help">KEYBOARD USING GUIDE</p>
+        <p class="help">
+          <span class="help-key elp-key-up-down"></span>
+          &#58; SPEED UP&#47;DOWN
+        </p>
+        <p class="help">
+          <span class="help-key help-key-left-right"></span>
+          &#58; CHANGE CHARACTER
+        </p>
+        <p class="help">
+          <span class="help-key help-key-spacebar"></span>
+          &#58; JUMP
+        </p>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+</html>
